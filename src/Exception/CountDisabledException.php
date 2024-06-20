@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 namespace Rekalogika\Domain\Collections\Common\Exception;
 
+use Rekalogika\Contracts\Collections\Exception\BadMethodCallException;
+
 class CountDisabledException extends BadMethodCallException
 {
     public function __construct()
